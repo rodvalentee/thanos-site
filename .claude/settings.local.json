@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(node -v)",
+      "PowerShell(npm -v)",
+      "PowerShell(cd \"c:\\\\PROJETOS\\\\PROF\\\\thanos\"; $env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); npm create vite@latest . -- --template react 2>&1)",
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); Set-Location \"c:\\\\PROJETOS\\\\PROF\\\\thanos\"; npm create vite@latest site -- --template react 2>&1)",
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); Set-Location \"c:\\\\PROJETOS\\\\PROF\\\\thanos\\\\site\"; npm install 2>&1)",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\PROJETOS\\\\PROF\\\\thanos\\\\site\\\\src\\\\components\")",
+      "Bash(git --version)",
+      "Bash(npm --version)",
+      "Bash(git config *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)"
+    ]
+  }
+}

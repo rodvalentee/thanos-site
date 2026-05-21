@@ -1,0 +1,84 @@
+.estrutura {
+  padding: 100px 0;
+  border-top: 1px solid var(--border);
+}
+
+.estrutura-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.espaco-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.espaco-card:hover {
+  transform: translateY(-3px);
+  border-color: #444;
+}
+
+.espaco-img {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.espaco-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.espaco-card:hover .espaco-img img {
+  transform: scale(1.05);
+}
+
+.espaco-tag {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: var(--red);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.espaco-body {
+  padding: 24px;
+}
+
+.espaco-body h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.espaco-body p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.espaco-disponivel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #4ade80;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .estrutura-grid { grid-template-columns: 1fr; max-width: 480px; }
+}
