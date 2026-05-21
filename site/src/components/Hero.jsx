@@ -9,15 +9,15 @@ export default function Hero() {
       </div>
 
       <div className="hero-content container">
-        <p className="label">Academia em Manaus</p>
+        <p className="label">A maior academia de Manaus</p>
         <h1>
-          Transformamos<br />
-          treino em rotina<br />
-          <span>e resultado real.</span>
+          Aqui você não<br />
+          para até chegar<br />
+          <span>onde quer estar.</span>
         </h1>
         <p className="hero-sub">
-          A academia com estrutura completa, equipamentos modernos e planos
-          flexíveis para você treinar do seu jeito.
+          Estrutura de elite, profissionais de alto nível e planos feitos
+          para quem leva o treino a sério.
         </p>
         <div className="hero-actions">
           <a href="#planos" className="btn-primary">

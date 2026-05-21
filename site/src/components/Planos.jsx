@@ -39,11 +39,11 @@ export default function Planos() {
         <div className="planos-header">
           <span className="label">Escolha seu plano</span>
           <h2 className="section-title">
-            Escolha o plano ideal<br />para você
+            Invista em você,<br />sem complicação
           </h2>
           <p className="section-subtitle">
-            Planos flexíveis, pensados para se adaptar ao seu ritmo e às suas necessidades.
-            Todos incluem acesso em horário livre e aulas coletivas.
+            Planos pensados para caber na sua rotina e no seu bolso.
+            Todos com acesso em horário livre e aulas coletivas inclusas.
           </p>
         </div>
 

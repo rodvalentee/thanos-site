@@ -7,13 +7,13 @@ export default function Sobre() {
         <div className="sobre-text">
           <span className="label">Sobre a Thanos Academia</span>
           <h2 className="section-title">
-            Transforme seu corpo<br />e sua vida
+            Força, disciplina<br />e resultado de verdade
           </h2>
           <p className="section-subtitle">
-            A Thanos Academia vai muito além do conceito tradicional de academia.
-            Somos um espaço completo de bem-estar em Manaus, com estrutura de
-            ponta, equipamentos modernos e uma equipe de profissionais qualificados
-            prontos para orientar seu treino com foco em resultado real.
+            A Thanos Academia nasceu para quem quer mais. Com duas unidades em
+            Manaus, estrutura de ponta e profissionais que vivem o que ensinam,
+            entregamos o ambiente certo para você evoluir de verdade — sem
+            desculpa, sem limite.
           </p>
         </div>
 

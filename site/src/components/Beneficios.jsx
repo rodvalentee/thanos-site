@@ -16,7 +16,7 @@ export default function Beneficios() {
         <div className="beneficios-header">
           <span className="label">Por que escolher a Thanos</span>
           <h2 className="section-title">
-            Mais do que treino,<br />uma experiência completa
+            Tudo que você precisa<br />para não ter desculpa
           </h2>
         </div>
 
